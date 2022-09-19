@@ -1,0 +1,27 @@
+{
+  "name": "pokedexbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrakore/pokedexBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astrakore/pokedexBackend/issues"
+  },
+  "homepage": "https://github.com/astrakore/pokedexBackend#readme",
+  "dependencies": {
+    "axios": "0.27.2",
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "nodemon": "2.0.20"
+  }
+}
